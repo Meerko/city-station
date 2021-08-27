@@ -29,7 +29,7 @@ function fetchData(){
 			var weatherStatus = data.weather[0].description;
 
 			if (weatherStatus == 'clear sky'){
-				document.getElementById("citystation").style.backgroundImage = "url('img/rome-cleary.png')";
+				document.getElementById("citystation").style.backgroundImage = "url('img/rome-pixeled.png')";
 			} else if(weatherStatus == 'few clouds'){
 				document.getElementById("citystation").style.backgroundImage = "url('img/rome-few-clouds.jpg')";
 			}else if(weatherStatus == 'scattered clouds'){
