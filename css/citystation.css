@@ -24,7 +24,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: aquamarine;
+	background-color: #0f0e0e;
 	background-position: center;
 	background-size: cover;
 	height: 800px;
