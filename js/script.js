@@ -22,7 +22,7 @@ function timeCounter(){
 
 	
 function fetchData(){
-	fetch('http://api.openweathermap.org/data/2.5/weather?q=Rome,Italy&appid=bc4c95b0c76d259e864f39e5eebae189')
+	fetch('https://api.openweathermap.org/data/2.5/weather?q=Rome,Italy&appid=bc4c95b0c76d259e864f39e5eebae189')
 		.then(res => res.json())
 		.then(data => {
 			console.log(data.weather[0].description);
